@@ -57,6 +57,7 @@ This is some pictures from data training set:
   </tr>
 </table>
 
+!! Please check to all the folder name after dowloading to make sure they are correct to run model!
 ## 4. Model detail
 Architecture: ResNet50 (from scratch)\
 Input size: 224x224x3\
