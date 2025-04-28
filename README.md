@@ -1,6 +1,7 @@
 # Rice-Leaf-Disease-Classification-Resnet50
 This project implements a ResNet50 model from scratch to classify various diseases in rice plant leaves. This model can help farmers and agricultural researchers quickly identify common rice diseases through image analysis.
 
+Give me a star if you like it :D
 ## 1. Project Structure
 Rice-Leaf-Disease-Classification-Resnet50/ 
 
