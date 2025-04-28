@@ -41,26 +41,29 @@ The dataset includes more than 10 000 samples with 10 different classes:
 Dataset: "Rice Leaf Diseases Detection". Kaggle, 2023.  [https://www.kaggle.com/datasets/loki4514/rice-leaf-diseases-detection/data](https://www.kaggle.com/datasets/loki4514/rice-leaf-diseases-detection/data)
 
 This is some pictures from data training set:
+<td align="center">
 <table>
   <tr>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/55b604fd-576b-4036-897d-1abc3d2b27f4" alt="healthy" width="250"><br>
+      <img src="https://github.com/user-attachments/assets/55b604fd-576b-4036-897d-1abc3d2b27f4" alt="healthy" width="300"><br>
       <em>Figure 1.: healthy leaf.</em>
     </td>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/43e40268-cc38-41a4-bf90-b7ad795197a5" alt="Bacterial leaf blight" width="250"><br>
+      <img src="https://github.com/user-attachments/assets/43e40268-cc38-41a4-bf90-b7ad795197a5" alt="Bacterial leaf blight" width="300"><br>
       <em>Figure 2.: Bacterial leaf blight.</em>
     </td>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/98b7c3fe-e127-4229-8e56-084d7cdf3d99" alt="Brow spot" width="250"><br>
+      <img src="https://github.com/user-attachments/assets/98b7c3fe-e127-4229-8e56-084d7cdf3d99" alt="Brow spot" width="300"><br>
       <em>Figure 3.: Brow spot leaf.</em>
     </td>
   </tr>
 </table>
+</td>
 
-!! Please check to all the folder name after dowloading to make sure they are correct to run model!
+!! Please check all the folder name after dowloading to make sure they are correct to run model!
 ## 4. Model detail
 Architecture: ResNet50 (from scratch)\
+Framwork: PyTorch\
 Input size: 224x224x3\
 Output: 10 classes\
 Training parameters:
@@ -68,6 +71,10 @@ Training parameters:
 - Learning rate: 0.0001
 - Batch size: 16
 - Epochs: 10
+  <td align="center"> 
+  <img src="https://github.com/user-attachments/assets/fcf75532-8a5d-4de4-9e84-c8f6acee68e6" alt="healthy" width="1200"> <br>
+  <em>ResNet50 architecture.</em>
+</td>
 
 ## 5. Validation
 Validation results indicate that the model achieves an accuracy exceeding 87% within the first 10 epochs.
